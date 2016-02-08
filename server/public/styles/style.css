@@ -1,16 +1,26 @@
-.index-point {
-    width: 25px;
-    height: 25px;
-    background-color: #dad5d2;
-    border: 1px solid black;
-    float: left;
-    display: inline-block;
+#peopleContainer {
+    margin: auto auto;
+    width: 250px;
+    padding: 200px 0px 15px 0px;
 }
 
-.index-point-active {
-    background-color: #ee100d;
+.buttons {
+    margin: 0 auto;
+    width: 250px;
 }
 
-.person-shoutout {
-    height: 200px;
+div.index {
+    display:table;
+    width:100%;
+    table-layout: fixed;
+    padding: 25px 75px 0px 75px;
+}
+div.index span {
+    display:table-cell;
+    text-align:center;
+    border: 1px solid gray;
+}
+
+.highlighted{
+    background-color: lightgreen;
 }
